@@ -43,7 +43,7 @@ h1{
   size: 2e;
   color: #c12258;
   text-align: center;
-  line-height: 2px;
+  line-height: 2;
   font-size: 2em;
 
   /*Req 2*/
@@ -96,7 +96,7 @@ table{
 You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child th:first-child{border-radius: 50px 0px 0px 0px;}
 thead tr:first-child th:last-child{border-radius: 0px 50px 0px 0px;}
-tbody tr:last-child td:first-child{border-radius: 0px 0px 0px 0px;}
+tbody tr:last-child th:first-child{border-radius: 0px 0px 0px 50px;}
 tbody tr:last-child td:last-child{border-radius: 0px 0px 50px 0px}
 
 
