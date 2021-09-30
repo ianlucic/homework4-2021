@@ -31,7 +31,8 @@ caption{
     font-family: 'Andika', sans-serif;
     font-size: 16px;
     margin: 1.2em;
-    background-image: url("images/pigeon-background.JPEG"), #DDDDDD ; /*FIX*/
+    background-image: url("../images/pigeon-background.JPEG"); /*FIX*/
+    background-color: #DDDDDD;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -119,6 +120,10 @@ a:active{
   text-decoration-style: wavy;
 }
 
+tr:nth-child(odd){
+  background-color: transparent;
+  } 
+  
 tr:nth-child(even){
   background-color: #D1D1D1;
 }
@@ -129,10 +134,6 @@ tr:hover{
 /* .rowhead:pseudo-class {
   
 } */
-
- tr:nth-child(odd){
-background-color: transparent;
-} 
 
 footer{
   width: 100%;
