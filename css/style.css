@@ -40,7 +40,7 @@ caption{
   }
 
 h1{
-  size: 32px;
+  size: 2e;
   color: #c12258;
   text-align: center;
   line-height: 2px;
@@ -78,12 +78,10 @@ td{
   text-align: center; /* Centered Vertically and Horzonitally? */
   background-color: #7e0825;
   text-transform: uppercase;
-  border-radius: 50px 50px 0px 0px; /* FIX! */
 }
 
 .rowhead{
   border: 2px solid #000000;
-   border-radius: 0px 0px 0px 50px;  /* FIX! */
 }
 
 
@@ -91,32 +89,33 @@ table{
   margin-left: auto;
   margin-right: auto;
   border: 5px solid #000000;
-  border-radius: 50px;
+  border-radius: 60px;
 }
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{border-radius: 50px 0px 0px 0px;}
+thead tr:first-child th:last-child{border-radius: 0px 50px 0px 0px;}
 
 /*Add selectors and rules here*/
 
 a:link{
-  color:#c12258;
+  color:#B21F50;
   text-decoration-style: wavy;
 }
 
 a:visited{
-  color:#c12258;
+  color:#B21F50;
   text-decoration-style: wavy;
 }
 
 a:hover{
-  color:#c12258;
+  color:#B21F50;
   text-decoration-style: wavy;
 }
 
 a:active{
-  color:#c12258;
+  color:#B21F50;
   text-decoration-style: wavy;
 }
 
