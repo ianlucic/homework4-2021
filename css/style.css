@@ -96,6 +96,9 @@ table{
 You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child th:first-child{border-radius: 50px 0px 0px 0px;}
 thead tr:first-child th:last-child{border-radius: 0px 50px 0px 0px;}
+thead tr:first-child td:last-child{border-radius: 0px 0px 0px 0px;}
+thead tr:last-child td:last-child{border-radius: 0px 0px 0px 0px}
+
 
 /*Add selectors and rules here*/
 
@@ -140,5 +143,7 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
